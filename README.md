@@ -15,8 +15,7 @@ $webhook = "INSERT WEBHOOK HERE";
 ##  Modification
 
 To change the display of the data, modify this part with MarkDown
-```php
-$make_json = json_encode(array ('content'=>                               
+```php                             
 "
 IP: {$geoplugin->ip}
 Os: $user_os
