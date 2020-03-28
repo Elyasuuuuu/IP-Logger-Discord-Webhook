@@ -19,7 +19,7 @@ To change the display of the data, modify this part with MarkDown
 "
 IP: {$geoplugin->ip}
 Os: $user_os
-Vanigator: $user_browser
+Navigator: $user_browser
 Datation: $time
 City: {$geoplugin->city}
 Region: {$geoplugin->region}
@@ -34,7 +34,6 @@ Longitude: {$geoplugin->longitude}
 Accuracy (Miles): {$geoplugin->locationAccuracyRadius}
 Timezone: {$geoplugin->timezone}
 "
-));
 ```
 
 ## Contributing
